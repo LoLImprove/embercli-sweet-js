@@ -1,0 +1,35 @@
+{
+  "name": "ember-cli-sweetjs",
+  "version": "0.0.1",
+  "description": "Adds precompilation of SweetJS files and all the basic generation types to the `ember generate` command.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ember-addon",
+    "sweetjs",
+    "blueprints"
+  ],
+  "author": "Gabriel Dehan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gabriel-dehan/ember-cli-sweetjs"
+  },
+  "bugs": {
+    "url": "https://github.com/gabriel-dehan/ember-cli-sweetjs/issues"
+  },
+  "homepage": "https://github.com/gabriel-dehan/ember-cli-sweetjs",
+  "dependencies": {
+    "broccoli-sweetjs": "~0.3.0",
+    "broccoli-filter": "~0.1.10",
+    "wrench": "^1.5.0",
+    "chalk": "^0.5.1",
+    "ember-cli": "^0.1.0",
+    "sweet.js": "^0.6.0",
+    "escodegen": "^1.4.0",
+    "fs-extra": "^0.11.1",
+    "inflection": "^1.4.0"
+  }
+}
